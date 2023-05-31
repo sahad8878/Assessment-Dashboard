@@ -1,7 +1,4 @@
 import React from "react";
-import Chart from "react-apexcharts";
-import mapIcon from "../Assets/Rectangle.png";
-
 import Topbar from "./Topbar";
 import GeneralInformation from "./GeneralInformation";
 import LiveStatics from "./LiveStatics";
@@ -11,22 +8,6 @@ import DomainQuota from "./DomainQuota";
 import Map from "./Map";
 
 function DashboardView() {
-  const convertToPercentage = (value) => {
-    return (value / 10) * 100;
-  };
-
-  //pass as props
-  const projectProgress = 3;
-  const userProgress = 2;
-  const graphProgress = 5;
-
-  // ===============================live static
-  //pass as props
-  const warning = 75;
-  const info = 50;
-  const error = 30;
-
-  const series = [75, 50, 30];
   return (
     <div className=" bg-[#F6F6F6] p-8">
       <div className="mb-6 text-xl font-medium">Project</div>

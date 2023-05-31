@@ -24,74 +24,84 @@ function Sidebar() {
                   <span
                     className={`flex items-center p-2 space-x-4 rounded-md  `}
                   >
-                    <img className=" h-[20px] w-[20px] " src={dashboardIcon} alt="logo" />
+                    <img
+                      className=" h-[20px] w-[20px] "
+                      src={dashboardIcon}
+                      alt="logo"
+                    />
 
-                    <span
-                   className="text-white"
-                    >
-                      Dashboard
-                    </span>
+                    <span className="text-white">Dashboard</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center  p-2 space-x-4 rounded-md">
-                    <img className=" h-[20px] w-[20px]" src={campaignIcon} alt="logo" />
+                    <img
+                      className=" h-[20px] w-[20px]"
+                      src={campaignIcon}
+                      alt="logo"
+                    />
 
-                    <span
-                    className="text-white"
-                    >
-                      Campaign
-                    </span>
+                    <span className="text-white">Campaign</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className=" h-[20px] w-[20px]" src={commandIcon} alt="logo" />
+                    <img
+                      className=" h-[20px] w-[20px]"
+                      src={commandIcon}
+                      alt="logo"
+                    />
 
-                    <span
-                     className="text-white"
-                    >
-                      Command
-                    </span>
+                    <span className="text-white">Command</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className="h-[20px] w-[20px]" src={zoneIcon} alt="logo" />
-                    <span
-                   className="text-white"
-                    >
-                      Zones
-                    </span>
+                    <img
+                      className="h-[20px] w-[20px]"
+                      src={zoneIcon}
+                      alt="logo"
+                    />
+                    <span className="text-white">Zones</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className="h-[20px] w-[20px]" src={channelsIcon} alt="logo" />
-                    <span
-                   className="text-white"
-                    >
-                      Channels
-                    </span>
+                    <img
+                      className="h-[20px] w-[20px]"
+                      src={channelsIcon}
+                      alt="logo"
+                    />
+                    <span className="text-white">Channels</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className="h-[20px] w-[20px]" src={devicesIcon} alt="logo" />
+                    <img
+                      className="h-[20px] w-[20px]"
+                      src={devicesIcon}
+                      alt="logo"
+                    />
                     <span className="text-white">Devices</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className=" h-[20px] w-[20px]" src={mediaLibraryIcon} alt="logo" />
-                    <span className="text-white">
-                      Media Library
-                    </span>
+                    <img
+                      className=" h-[20px] w-[20px]"
+                      src={mediaLibraryIcon}
+                      alt="logo"
+                    />
+                    <span className="text-white">Media Library</span>
                   </span>
                 </li>
                 <li className="rounded-sm">
                   <span className="flex items-center p-2 space-x-4 rounded-md ">
-                    <img className=" h-[20px] w-[20px] " src={historyIcone} alt="logo" />
+                    <img
+                      className=" h-[20px] w-[20px] "
+                      src={historyIcone}
+                      alt="logo"
+                    />
                     <span className="text-white">History</span>
                   </span>
                 </li>
