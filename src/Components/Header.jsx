@@ -10,10 +10,10 @@ function Header() {
       <div className="flex justify-end content-end ">
         <div className="flex space-x-7 mt-4 mr-10">
           <span className="mt-1">
-            <img className="ms-auto" src={headsetIcon} />
+            <img className="ms-auto" src={headsetIcon} alt="header" />
           </span>
           <span className="mt-1">
-            <img className="ms-auto" src={notificationIcon} />
+            <img className="ms-auto" src={notificationIcon} alt="notification"/>
           </span>
           <span>
             <Dropdown />

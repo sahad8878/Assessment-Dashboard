@@ -11,11 +11,11 @@ function ActivityLogs() {
         </h5>
       </div>
       <div class="flow-root">
-        <ul role="list" class="divide-y divide-gray-200">
+        <ul  class="divide-y divide-gray-200">
           <li class="py-2 sm:py-2">
             <div class="flex items-center space-x-3">
               <div class="flex-shrink-0">
-                <img class="-mt-4" src={monitorIcon} alt="Neil image" />
+                <img class="-mt-4" src={monitorIcon} alt="Neil " />
               </div>
               <div class="flex-1 min-w-0 text-[#545454]">
                 <p class="text-lg font-normal  truncate ">Device</p>
@@ -32,7 +32,7 @@ function ActivityLogs() {
           <li class="py-2 sm:py-2">
             <div class="flex items-center space-x-3">
               <div class="flex-shrink-0">
-                <img class="-mt-4" src={cammandLIneIcon} alt="Neil image" />
+                <img class="-mt-4" src={cammandLIneIcon} alt="Neil " />
               </div>
               <div class="flex-1 min-w-0 text-[#545454]">
                 <p class="text-lg font-normal  truncate ">Device</p>
@@ -49,7 +49,7 @@ function ActivityLogs() {
           <li class="py-2 sm:py-2">
             <div class="flex items-center space-x-3">
               <div class="flex-shrink-0">
-                <img class="-mt-4" src={playlistIcon} alt="Neil image" />
+                <img class="-mt-4" src={playlistIcon} alt="Neil " />
               </div>
               <div class="flex-1 min-w-0 text-[#545454]">
                 <p class="text-lg font-normal  truncate ">Device</p>

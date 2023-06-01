@@ -47,7 +47,7 @@ function LiveStatics() {
       },
     ],
   };
-  const series = [75, 50, 30];
+  // const series = [75, 50, 30];
   return (
     <div className="max-w-lg mx-auto p-2.5 bg-white  shadow-md w-full   ">
       <h2 className="font-medium text-base -mb-3 mr-3 ">Live Statistics</h2>

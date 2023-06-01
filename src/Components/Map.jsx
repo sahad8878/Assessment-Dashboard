@@ -5,7 +5,7 @@ function Map() {
   return (
     <div className="shadow-md">
       <span className=" font-medium text-base ml-2 ">Location - Devices</span>
-      <img className="" src={mapIcon}></img>
+      <img className="" src={mapIcon} alt="map"/>
     </div>
   );
 }

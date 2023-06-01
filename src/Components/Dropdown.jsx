@@ -13,10 +13,8 @@ function Dropdown() {
   const navigate = useNavigate();
   const { logout, user } = useContext(AuthContext);
 
-  const token = localStorage.getItem("userToken");
   const handleLogout = () => {
     logout();
-    localStorage.removeItem("userToken");
     navigate("/");
   };
   return (
