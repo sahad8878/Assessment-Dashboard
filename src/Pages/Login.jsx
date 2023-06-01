@@ -1,9 +1,12 @@
-import React from "react";
+import React,{useContext} from "react";
 import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import { message } from "antd";
 import axios from "../Axios/Axios";
+import { AuthContext } from "../Context/AuthContext";
 function Login() {
+  const { login} = useContext(AuthContext);
+
   const navigate = useNavigate();
   const {
     register,
@@ -11,11 +14,11 @@ function Login() {
     formState: { errors },
   } = useForm();
   const submitForm = (data) => {
-    console.log(data, "data");
     axios.post("/userLogin", data).then((response) => {
       const result = response.data;
       if (result.success) {
-        localStorage.setItem("userToken", result.userToken);
+        login({token:result.userToken})
+        // localStorage.setItem("userToken", result.userToken);
         message.success("Login  successfully!");
         navigate("/home");
       } else {
