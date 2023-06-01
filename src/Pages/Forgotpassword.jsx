@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import { message } from "antd";
 import axios from '../Axios/Axios'
+import logo from "../Assets/logo.png";
+
 function Forgotpassword() {
 
     const navigate = useNavigate();
@@ -25,6 +27,10 @@ function Forgotpassword() {
         })
        };
   return (
+    <div>
+    <div className="h-20 bg-[#0B3366] w-screen">
+      <img className="p-7 pl-14" src={logo} alt="logo" />
+    </div>
     <div className="text-center flex justify-center content-center">
     <div className="shadow-lg shadow-[#0e2d39]  border-2 rounded-2xl  my-16 p-14 ">
       <h1 className="text-xl font-bold font-serif text-[#0e2d39] ">
@@ -81,6 +87,8 @@ function Forgotpassword() {
 
     </div>
   </div>  
+  </div>  
+
   )
 }
 
